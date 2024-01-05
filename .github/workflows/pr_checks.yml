@@ -2,6 +2,7 @@ name: Run PR Checks
 
 on:
   pull_request:
+  push:
 
 jobs:
   validate_icons:
